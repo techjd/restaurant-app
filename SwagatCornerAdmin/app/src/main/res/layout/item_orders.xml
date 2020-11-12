@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20sp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:background="@drawable/border_background"
+            android:padding="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#000000"
+                    android:fontFamily="@font/lato_regular"
+                    android:textSize="18sp"
+                    android:id="@+id/orderID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Order ID: " />
+
+                <TextView
+                    android:textColor="#000000"
+                    android:fontFamily="@font/lato_regular"
+                    android:textSize="18sp"
+                    android:id="@+id/order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                     />
+
+            </LinearLayout>
+
+            <TextView
+                android:fontFamily="@font/lato_bold"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#000000"
+                    android:fontFamily="@font/lato_regular"
+                    android:textSize="20sp"
+                    android:id="@+id/isPaid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Amount Paid:    " />
+
+                <TextView
+                    android:textColor="#000000"
+                    android:fontFamily="@font/lato_regular"
+                    android:textSize="20sp"
+                    android:id="@+id/paid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="false" />
+
+            </LinearLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <TextView
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/lato_regular"
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                     />
+            </androidx.core.widget.NestedScrollView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

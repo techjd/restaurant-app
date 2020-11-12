@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "431713654358",
+    "firebase_url": "https://swagat-corner-admin.firebaseio.com",
+    "project_id": "swagat-corner-admin",
+    "storage_bucket": "swagat-corner-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431713654358:android:cee32c8cfbc9dc105e4df7",
+        "android_client_info": {
+          "package_name": "com.techjd.swagatcorneradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431713654358-10ucpunftoe87uj4q0agevsqgg3v27kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techjd.swagatcorneradmin",
+            "certificate_hash": "d45253b5dfdfba9b063f75bb8563388ff2255f78"
+          }
+        },
+        {
+          "client_id": "431713654358-f8d9tbmq4e8kf45u68fvqfh1jc9grpa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSkXYPRIgDjpesm9o7f4wpq2vseID2yXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431713654358-f8d9tbmq4e8kf45u68fvqfh1jc9grpa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+Error: Token used too late, 1602960069.303 > 1602958269: {"iss":"https://accounts.google.com","azp":"1094645218276-3o48ibjr16ccvbuf033r55sjcp92upu0.apps.googleusercontent.com","aud":"1094645218276-e0omn9bna89nioudcbimo73pm9cd0bpd.apps.googleusercontent.com","sub":"107702828877006978399","email":"jaydeepparmar253@gmail.com","email_verified":true,"name":"TECH JD","picture":"https://lh3.googleusercontent.com/a-/AOh14GjdpXb9Ig8jIj3tEumw6CHbcdqKPKlJ_y2ivFpj3g=s96-c","given_name":"TECH","family_name":"JD","locale":"en","iat":1602954369,"exp":1602957969}
+    at OAuth2Client.verifySignedJwtWithCertsAsync (C:\Users\DELL\Desktop\new-swagat\node_modules\google-auth-library\build\src\auth\oauth2client.js:595:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async OAuth2Client.verifyIdTokenAsync (C:\Users\DELL\Desktop\new-swagat\node_modules\google-auth-library\build\src\auth\oauth2client.js:394:23)
+    at async file:///C:/Users/DELL/Desktop/new-swagat/routes/userRoutes.js:12:20
+
+    MONGO_URI = mongodb+srv://TECHJD:Jaydeep04@techjd.h2vlh.mongodb.net/proshop?retryWrites=true&w=majority

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Swagat Corner</string>
+    <string name="CLIENT_ID">1094645218276-3o48ibjr16ccvbuf033r55sjcp92upu0.apps.googleusercontent.com</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
